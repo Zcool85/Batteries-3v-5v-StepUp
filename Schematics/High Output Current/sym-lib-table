@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BatteriesSetUp)(type Legacy)(uri ${KIPRJMOD}/../Libs/BatteriesStepUp.lib)(options "")(descr ""))
+)

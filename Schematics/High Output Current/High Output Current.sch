@@ -19,7 +19,7 @@ U 1 1 63CC2713
 P 5000 2550
 F 0 "R4" H 5070 2596 50  0000 L CNN
 F 1 "1K" H 5070 2505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4930 2550 50  0001 C CNN
 F 3 "~" H 5000 2550 50  0001 C CNN
 	1    5000 2550
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 63CC4C56
 P 6700 3300
 F 0 "D3" V 6750 3100 50  0000 C CNN
 F 1 "1N5817" V 6650 3000 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6700 3125 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 6700 3125 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 6700 3300 50  0001 C CNN
 	1    6700 3300
 	0    -1   -1   0   
@@ -96,7 +96,7 @@ U 1 1 63CC983E
 P 3250 3000
 F 0 "SW1" H 3250 3150 50  0000 C CNN
 F 1 "SW_SPST" H 3250 3144 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3250 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3250 3000 50  0001 C CNN
 F 3 "~" H 3250 3000 50  0001 C CNN
 	1    3250 3000
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ U 1 1 63CD3407
 P 4350 3100
 F 0 "R2" H 4420 3146 50  0000 L CNN
 F 1 "150K" H 4420 3055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 3100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4280 3100 50  0001 C CNN
 F 3 "~" H 4350 3100 50  0001 C CNN
 	1    4350 3100
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 63CD3C7D
 P 4350 4250
 F 0 "R3" H 4420 4296 50  0000 L CNN
 F 1 "100K" H 4420 4205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 4250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4280 4250 50  0001 C CNN
 F 3 "~" H 4350 4250 50  0001 C CNN
 	1    4350 4250
 	1    0    0    -1  
@@ -293,7 +293,7 @@ U 1 1 63D7D542
 P 3800 3100
 F 0 "R1" H 3870 3146 50  0000 L CNN
 F 1 "1K" H 3870 3055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3730 3100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3730 3100 50  0001 C CNN
 F 3 "~" H 3800 3100 50  0001 C CNN
 	1    3800 3100
 	1    0    0    -1  
@@ -347,6 +347,50 @@ F 1 "MAX641" H 4500 4000 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5350 3450 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX641-MAX643.pdf?ADICID=SYND_WW_P682800_PF-spglobal" H 5100 3450 50  0001 C CNN
 	1    5150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 63D5195B
+P 10350 6250
+F 0 "H4" H 10450 6296 50  0000 L CNN
+F 1 "MountingHole" H 10450 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10350 6250 50  0001 C CNN
+F 3 "~" H 10350 6250 50  0001 C CNN
+	1    10350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 63D521A8
+P 10350 6050
+F 0 "H3" H 10450 6096 50  0000 L CNN
+F 1 "MountingHole" H 10450 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10350 6050 50  0001 C CNN
+F 3 "~" H 10350 6050 50  0001 C CNN
+	1    10350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 63D52498
+P 10350 5850
+F 0 "H2" H 10450 5896 50  0000 L CNN
+F 1 "MountingHole" H 10450 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10350 5850 50  0001 C CNN
+F 3 "~" H 10350 5850 50  0001 C CNN
+	1    10350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 63D52979
+P 10350 5650
+F 0 "H1" H 10450 5696 50  0000 L CNN
+F 1 "MountingHole" H 10450 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10350 5650 50  0001 C CNN
+F 3 "~" H 10350 5650 50  0001 C CNN
+	1    10350 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

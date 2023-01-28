@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MAX641
-D 45 kHz Boost Controller, 2V to 16V input voltage, 5V output voltage, 10W, Low Battery Detection, NSOIC-8
-K boost controller
-F https://www.analog.com/media/en/technical-documentation/data-sheets/MAX641-MAX643.pdf?ADICID=SYND_WW_P682800_PF-spglobal
-$ENDCMP
-#
-#End Doc Library

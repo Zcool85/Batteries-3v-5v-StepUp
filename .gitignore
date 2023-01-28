@@ -21,6 +21,9 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Backups directories
+*-backups/
+
 # Exported BOM files
 *.xml
 *.csv
